@@ -1,0 +1,30 @@
+{
+  "name": "serviciorestmongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickMR19/ServicioRestMongo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "rest"
+  ],
+  "author": "Erick Madrigal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErickMR19/ServicioRestMongo/issues"
+  },
+  "homepage": "https://github.com/ErickMR19/ServicioRestMongo#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.12.4",
+    "mongoose-unique-validator": "^1.0.6"
+  }
+}
